@@ -47,7 +47,7 @@ git clone https://github.com/williamkoller/ddd-golang.git
 cd ddd-golang
 ```
 
-2Instale as dependências:
+2. Instale as dependências:
 
 ```bash
 go mod tidy
