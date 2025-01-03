@@ -121,3 +121,19 @@ func main() {
 	fmt.Printf("Ordem criada com ID: %s\n", order.ID)
 }
 ```
+
+# Testes
+
+Para executar os testes, utilize o comando:
+
+```bash
+go test ./...
+
+ok      ddd-golang/cmd  0.002s
+ok      ddd-golang/domain/entities      0.002s
+ok      ddd-golang/domain/repositories  0.002s
+ok      ddd-golang/domain/value_objects 0.002s
+ok      ddd-golang/usecases     0.002s
+
+```
+
