@@ -1,3 +1,5 @@
+[![Continuous Integration](https://github.com/williamkoller/ddd-golang/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/williamkoller/ddd-golang/actions/workflows/continuous-integration.yml)
+
 # 🏗️ Domain-Driven Design com GoLang
 
 Este projeto é uma implementação de um sistema simples utilizando os princípios de Domain-Driven Design (DDD) em GoLang. Ele simula a criação e manipulação de ordens de compra (Orders), aplicando conceitos de Entities, Value Objects, Repositories, e Use Cases.
