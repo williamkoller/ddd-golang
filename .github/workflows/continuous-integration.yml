@@ -23,3 +23,12 @@ jobs:
 
       - name: Test
         run: go test -v ./...
+
+      - name: Run tests with coverage
+        run: go test ./... -coverprofile=coverage.out
+
+      - name: Upload coverage
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage
+          path: coverage.out
