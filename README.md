@@ -7,22 +7,28 @@ Este projeto é uma implementação de um sistema simples utilizando os princíp
 # 🛠️ Estrutura do Projeto
 
 ```bash
-ddd-golang/
-├── cmd/
-│   └── main.go                # Ponto de entrada da aplicação
-├── domain/
-│   ├── entities/
-│   │   └── order.go           # Entidade Order
-│   ├── value_objects/
-│   │   └── price.go           # Value Object Price
-│   └── repositories/
-│       └── order_repository.go # Interface para o repositório de Orders
-├── infrastructure/
-│   └── persistence/
-│       └── order_repository.go # Implementação do repositório
-├── usecases/
-│   └── create_order.go        # Caso de uso para criar uma Order
-└── go.mod                     # Configuração do módulo Go
+├── cmd
+│   ├── main.go
+│   └── main_test.go
+├── domain
+│   ├── entities
+│   │   ├── order.go
+│   │   └── order_test.go
+│   ├── repositories
+│   │   ├── in_memory_order_repository.go
+│   │   ├── in_memory_order_repository_test.go
+│   │   ├── mock_order_repository.go
+│   │   └── order_repository.go
+│   └── value_objects
+│       ├── price.go
+│       └── price_test.go
+├── go.mod
+├── go.sum
+├── README.md
+└── usecases
+    ├── create_order.go
+    └── create_order_use_case_test.go
+
 ```
 
 # ✨ Funcionalidades 
